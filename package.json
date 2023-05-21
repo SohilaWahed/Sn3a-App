@@ -1,0 +1,48 @@
+{
+  "name": "sn3a-app",
+  "version": "1.0.0",
+  "description": " Backend application server for graduation Project",
+  "main": "app.js",
+  "scripts": {
+    "start": " node server.js ",
+    "start:prod": "NODE_ENV = production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SohilaWahed/Sn3a-App.git"
+  },
+  "author": "Sohila&Farouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SohilaWahed/Sn3a-App/issues"
+  },
+  "homepage": "https://github.com/SohilaWahed/Sn3a-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.37.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "mongoose-intl-phone-number": "^1.1.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.2",
+    "nodemailer-express-handlebars": "^6.1.0",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.6.1",
+    "twilio": "^4.11.1",
+    "two-step-auth": "^1.1.2",
+    "validator": "^13.9.0",
+    "xss-clean": "^0.1.1"
+  }
+}
