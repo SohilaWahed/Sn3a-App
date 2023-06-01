@@ -18,6 +18,9 @@
     "url": "https://github.com/SohilaWahed/Sn3a-App/issues"
   },
   "homepage": "https://github.com/SohilaWahed/Sn3a-App#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
