@@ -9,9 +9,9 @@ const fileUpload = require('express-fileupload');
 const AppError = require('./utils/appError');
 const userRouter = require('./Routes/userRouter');
 const postRouter = require('./Routes/postRouter');
-const chatRouter = require('./routes/chatRoutes');
-const paymentRouter = require('./routes/paymentRoutes');
-const messageRouter = require('./routes/messageRoutes');
+const chatRouter = require('./Routes/chatRoutes');
+const paymentRouter = require('./Routes/paymentRoutes');
+const messageRouter = require('./Routes/messageRoutes');
 const globalErrorHandler = require('./controllers/errorController');
 const app = express();
 
